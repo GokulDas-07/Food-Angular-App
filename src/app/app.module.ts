@@ -7,6 +7,7 @@ import { RegisterComponent } from './register/register.component';
 import { UserLoginComponent } from './user-login/user-login.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { ChineseComponent } from './chinese/chinese.component';
+import { SouthIndianComponent } from './south-indian/south-indian.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { ChineseComponent } from './chinese/chinese.component';
     RegisterComponent,
     UserLoginComponent,
     NavbarComponent,
-    ChineseComponent
+    ChineseComponent,
+    SouthIndianComponent
   ],
   imports: [
     BrowserModule,
