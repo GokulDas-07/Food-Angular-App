@@ -8,6 +8,7 @@ import { UserLoginComponent } from './user-login/user-login.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { ChineseComponent } from './chinese/chinese.component';
 import { SouthIndianComponent } from './south-indian/south-indian.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { SouthIndianComponent } from './south-indian/south-indian.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
